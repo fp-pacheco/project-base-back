@@ -1,0 +1,7 @@
+-- DropIndex
+DROP INDEX "Post_id_key";
+
+-- AlterTable
+ALTER TABLE "Post" ALTER COLUMN "likes" SET DEFAULT 0,
+ALTER COLUMN "created_at" SET DEFAULT CURRENT_TIMESTAMP,
+ADD CONSTRAINT "Post_pkey" PRIMARY KEY ("id");

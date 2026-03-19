@@ -1,0 +1,11 @@
+bcrypt
+email-validator
+fastapi
+httpx
+prisma
+pytest
+pytest-asyncio
+pyjwt
+python-dotenv
+uvicorn
+pytest-cov
